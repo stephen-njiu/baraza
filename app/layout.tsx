@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Let's Talk",
+  title: "Baraza",
   description: "A video conferencing app",
 };
 

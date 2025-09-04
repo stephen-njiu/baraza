@@ -1,9 +1,16 @@
 import StreamProvider from "@/providers/StreamProvider"
 import { SignIn } from "@clerk/nextjs"
 import { currentUser } from "@clerk/nextjs/server"
-import { neobrutalism } from "@clerk/themes"
+import { shadesOfPurple } from "@clerk/themes"
+import { Metadata } from "next"
 import Image from "next/image"
 import React from "react"
+
+
+export const metadata: Metadata = {
+  title: "Baraza",
+  description: "A video conferencing app",
+};
 
 const MainLayout = async ({
     children
@@ -33,7 +40,7 @@ const MainLayout = async ({
                     <SignIn
                     routing="hash"
                         appearance={{
-                                baseTheme: neobrutalism
+                                baseTheme: shadesOfPurple
                             }
                         }
                     />

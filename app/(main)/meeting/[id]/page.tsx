@@ -31,7 +31,7 @@ const MeetingPage = () => {
     if (notAllowed) return <Alert title="You are not allowed to join this meeting" />;
 
     return (
-        <main className="h-screen w-full">
+        <main className="h-screen w-full mb-20">
             <StreamCall call={call}>
                 <StreamTheme>
         

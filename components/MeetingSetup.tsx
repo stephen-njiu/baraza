@@ -79,7 +79,6 @@ const MeetingSetup = ({
                 call.updateCallMembers({
                   update_members: [{ user_id: user.id }],
                 })
-      
                 setIsSetupComplete(true);
               }}
             >
@@ -91,4 +90,6 @@ const MeetingSetup = ({
 
   }
 
-  export default MeetingSetup
+  export default MeetingSetup 
+
+  
